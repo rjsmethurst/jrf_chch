@@ -67,7 +67,7 @@ Since the first discovery of galaxies in our Universe, understanding their evolu
 \begin{centering}
 \includegraphics[width=0.8\textwidth]{image_halpha_vel_map_8078-12703_gal_aligned_ifu_bundles-MAPS-VOR10-GAU-MILESHC.pdf}
 \vspace{-0.5em}
-\caption[8pt]{Image of an example target galaxy from SDSS (left) showing the hexagonal fibre bundle coverage (magenta) with corresponding data from the MaNGA survey showing the spectral index D4000 (middle, a tracer of stellar age) and equivalent width of the $H\alpha$ emission line (right, a tracer of star formation) resolved across the galaxy in each of the spaxels.}
+\caption[8pt]{Image of an example galaxy observed by MaNGA (left) showing the spectral fibre coverage (magenta) with corresponding data showing the spectral index D4000 (middle, a tracer of stellar age) and equivalent width of the $H\alpha$ emission line (right, a tracer of star formation) resolved across the galaxy in each of the spaxels.}
 \label{gal}
 \end{centering}
 \vspace{-1.5em}
@@ -80,18 +80,18 @@ Since the first discovery of galaxies in our Universe, understanding their evolu
 \indent An AGN is an actively growing supermassive black hole (SMBH) in the centre of a galaxy. %There are tight correlations between properties of galaxies and central black hole mass, suggesting that changes in galaxy properties, such as star formation rate (SFR), could also be tied to the black hole activity. 
 AGN feedback is thought to occur via the output of energetic material and radiation from accretion onto a SMBH. This output is then assumed to either heat or expel hydrogen gas from a galaxy halo, removing critical fuel for future star formation. There are strong theoretical predictions for AGN feedback occurring across the entire galaxy population \citep{Fabian12, Gaibler12}. For example, without AGN feedback to regulate star formation, simulated galaxies grow to unrealistic stellar masses \citep[e.g.][]{silk12}. However, direct observational evidence for quenching caused by AGN across the galaxy population has been elusive. This persistent lack of proof for AGN feedback continues to challenge both our basic understanding of how the Universe evolves. 
 
-However, by employing my novel inference code\footnote{\url{https://github.com/zooniverse/starpy}} I have been able to show that a population of nearby AGN host galaxies have undergone a recent, rapid decline in star formation, not detected in a control sample of galaxies with inactive SMBHs. This finding of recent, rapid quenching suggests that feedback from AGN is indeed the cause, as AGN have short lifetimes of $\lesssim0.3$~Gyr \citep{martini04} and in simulations are found to cause rapid quenching \citep{tortora09}. This is a profound result, inferred using only two galaxy colours. However, using this data I am not able to determine whether AGN feedback is truly the internal cause of the inferred quenching or whether the AGN is merely a consequence of another external quenching mechanism (e.g. its activity has been triggered by a galaxy interaction or merger). 
+However, by employing my novel inference code\footnote{\url{https://github.com/zooniverse/starpy}} I have been able to show that a population of nearby AGN host galaxies have undergone a recent, rapid decline in star formation, not detected in a control sample of galaxies with inactive SMBHs (see peaks at recent times and rapid rates in Figure \ref{timerate}). This finding of recent, rapid quenching suggests that feedback from AGN is indeed the cause, as AGN have short lifetimes of $\lesssim0.3$~Gyr \citep{martini04} and in simulations are found to cause rapid quenching \citep{tortora09}. This is a profound result, inferred using only two galaxy colours. However, using this data I am not able to determine whether AGN feedback is truly the internal cause of the inferred quenching or whether the AGN is merely a consequence of another external quenching mechanism (e.g. its activity has been triggered by a galaxy interaction or merger). 
 
-% \begin{figure}[t]
-% \begin{centering}
-% \includegraphics[width=0.375\textwidth]{quenching_time_all_masses_bootstrap_one_morphology.pdf}
-% \includegraphics[width=0.375\textwidth]{quenching_rate_all_masses_bootstrap_one_morphology.pdf}
-% \vspace{-0.5em}
-% \caption[8pt]{The difference in the time (left) and rate (right) of quenching in nearby galaxies that host AGN (black, solid) compared to galaxies with inactive SMBHs (red, dashed). The plots are normalised so that the areas underneath the curves are equal. The peaks in the black, solid lines show that recent ($\sim12~\rm{Gyr}$ left panel), rapid ($\sim0.1~\rm{Gyr}$ right panel) quenching is occurring in the AGN host galaxy population, which is not seen in the inactive galaxy population (red dashed lines), suggesting this quenching may be caused by AGN feedback. Adapted from Figures $4$ \& $5$ in \cite{smethurst16}.}
-% \label{timerate}
-% \end{centering}
-% \vspace{-1.5em}
-% \end{figure}
+\begin{figure}[t]
+\begin{centering}
+\includegraphics[width=0.375\textwidth]{quenching_time_all_masses_bootstrap_one_morphology.pdf}
+\includegraphics[width=0.375\textwidth]{quenching_rate_all_masses_bootstrap_one_morphology.pdf}
+\vspace{-0.5em}
+\caption[8pt]{The difference in the time (left) and rate (right) of quenching in nearby galaxies that host AGN (black, solid) compared to galaxies with inactive SMBHs (red, dashed). The plots are normalised so that the areas underneath the curves are equal. The peaks in the black, solid lines show that recent ($\sim12~\rm{Gyr}$ left panel), rapid ($\sim0.1~\rm{Gyr}$ right panel) quenching is occurring in the AGN host galaxy population, which is not seen in the inactive galaxy population (red dashed lines), suggesting this quenching may be caused by AGN feedback. Adapted from Figures $4$ \& $5$ in \cite{smethurst16}.}
+\label{timerate}
+\end{centering}
+\vspace{-1.5em}
+\end{figure}
 
 \vspace{-0.5em}
 \section*{\large Proposed research}
@@ -108,13 +108,14 @@ to infer more precise SFHs than derived previously from global galaxy colours. I
 
 \end{enumerate}
 
-I have been working with MaNGA data during my current position as a Research Fellow at the University of Nottingham and so I am already experienced in handling the data and its corresponding analysis tools. This puts me in a unique position to successfully complete this proposed research with my combined knowledge of the data, the statistical techniques and my inference code.
-\vspace{-0.5em}
+I have been working with MaNGA data during my current position as a Research Fellow at the University of Nottingham and so I am already experienced in handling the data and its corresponding analysis tools. This puts me in a unique position to successfully complete this proposed research with my combined knowledge of the data, the statistical techniques and my inference code. This research will provide both an analysis tool for the astrophysical community and a statistical test of a long standing 	problem, allowing us to better inform our understanding of the Universe.
+% \vspace{-0.5em}
 
-\section*{\large Summary}
-\vspace{-0.5em}
+% \section*{\large Summary}
+% \vspace{-0.5em}
 
-If awarded this fellowship, I will apply my adapted SFH inference code to MaNGA data to test whether quenching caused by AGN feedback occurs across the galaxy population. I expect to publish at least three papers documenting this research; the first describing my adapted inference code (2018-2019), the second detailing evidence, or otherwise, for AGN feedback across a star formation independent sample of AGN hosts (2019-2020) and a third determining where AGN feedback is a dominant mechanism (2020-2021). This research will provide both an analysis tool for the astrophysical community and a statistical test of a long standing 	problem, allowing us to better inform our understanding of the Universe.
+% If awarded this fellowship, I will apply my adapted SFH inference code to MaNGA data to test whether quenching caused by AGN feedback occurs across the galaxy population. I expect to publish at least three papers documenting this research; the first describing my adapted inference code (2018-2019), the second detailing evidence, or otherwise, for AGN feedback across a star formation independent sample of AGN hosts (2019-2020) and a third determining where AGN feedback is a dominant mechanism (2020-2021). 
+
 
 \vspace{-0.5em}
 
